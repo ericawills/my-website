@@ -1,0 +1,100 @@
+
+
+/* -------  Global Styles ------- */
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+	background-color: #ffff;
+  color: #323232;
+}
+
+header, footer {
+  background-color: #beebe9;
+  background-image: url("images/backgrounds/gplay.png");
+}
+
+header {
+	height: 140px;
+}
+
+.logo {
+  color: #ff847c;
+  font-size: 72px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-shadow: 1px 1px 5px rgb(179, 133, 135);
+}
+
+section {
+	padding: 0 25%;
+  margin: 80px 0;
+}
+
+
+/* -------  Text Styles ------- */
+
+h1, h2, h3 {
+	color: #8ac6d1;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Roboto Condensed', serif;
+  text-shadow: 1px 1px 5px rgb(189, 184, 184);
+}
+
+
+header h2 {
+  font-family: 'Playfair Display SC', serif;
+	color: #8ac6d1;
+	margin: 0px;
+	font-size: 18px;
+	text-align: center;
+}
+
+h2 { 
+  font-size: 26px; 
+    
+  }
+
+h3 { font-size: 18px; }
+
+p, li {
+ line-height: 1.5em; margin-bottom: 0; }
+
+/* Links */
+a { 
+  font-weight: 700;
+	text-decoration: none;
+  color: #ff847c; 
+  text-shadow: 1px 1px 2px grey; 
+  }
+
+a:hover { color: #e71414; font-size: 20px;}
+/*  */
+
+footer p {	
+	text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+/* -------  Images ------- */
+
+img, iframe { 
+  width: 100%;
+  border: 2px solid #8ac6d1 !important;
+  border-radius: 5%;
+  }
+
+.avatar {
+  width: 30%;
+  margin: auto;
+}
+
+/* -------  Modifier styles ------- */
+
+.border-top {
+  padding-top: 80px;
+  border-top: 2px solid #beebe9;
+}
