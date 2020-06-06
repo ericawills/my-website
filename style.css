@@ -33,7 +33,6 @@ section {
   margin: 80px 0;
 }
 
-
 /* -------  Text Styles ------- */
 
 h1, h2, h3 {
@@ -84,7 +83,7 @@ footer p {
   margin: 0;
 }
 
-/* -------  Images ------- */
+/* -------  Images & Icons ------- */
 
 img, iframe { 
   width: 100%;
@@ -97,9 +96,13 @@ img, iframe {
   margin: auto;
 }
 
+fa-street-view {
+  color:#ff847c;
+}
+
+
 /* -------  Modifier styles ------- */
 
-.border-top {
-  padding-top: 80px;
+hr {
   border-top: 2px solid #beebe9;
 }
