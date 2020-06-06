@@ -19,6 +19,7 @@ header {
 }
 
 .logo {
+  font-family: 'Roboto Condensed', serif;
   color: #ff847c;
   font-size: 72px;
   text-align: center;
@@ -43,10 +44,14 @@ h1, h2, h3 {
   text-shadow: 1px 1px 5px rgb(189, 184, 184);
 }
 
+h4 {
+  text-align: center;
+}
 
 header h2 {
   font-family: 'Playfair Display SC', serif;
-	color: #8ac6d1;
+  font-weight: bold;
+	color: #9c9495;
 	margin: 0px;
 	font-size: 18px;
 	text-align: center;
@@ -83,7 +88,7 @@ footer p {
 
 img, iframe { 
   width: 100%;
-  border: 2px solid #8ac6d1 !important;
+  border: 2px solid #beebe9 !important;
   border-radius: 5%;
   }
 
